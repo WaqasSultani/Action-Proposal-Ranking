@@ -14,6 +14,7 @@ Please follow the following steps to run code files
 3. Use "Calculate_Motion_Score.m" to do Non_Maximal Suppression. 
 4. To compute Motioness:
  4.1  After computing optical flow (as shown in "Calculate_opticalflow_flowMask or Calculate_opticalflow.m"), use edgeBoxesDemo_w in ../edge-master 
+ 
  4.2  Compute_Motioness.m
 
 5. To train actioness classifier:
