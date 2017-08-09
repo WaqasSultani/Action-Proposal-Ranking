@@ -1,6 +1,6 @@
 # Action-Proposal-Ranking
 CVIU 2017
-This folder contains demo code for our CVIU Submission, “Unsupervised Action Proposal Ranking through Proposal Recombination".
+This folder contains demo code for our CVIU Paper, “Unsupervised Action Proposal Ranking through Proposal Recombination".
 
 Since our code has several components, we have included separate files for each component; some of them can be run in parallel.
 Please follow the following steps to run code files
