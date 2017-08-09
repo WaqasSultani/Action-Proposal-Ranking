@@ -18,8 +18,10 @@ Please follow the following steps to run code files
  4.2  Compute_Motioness.m
 
 5. To train actioness classifier:
+
   5.1 Download the images provided at "http://crcv.ucf.edu/projects/videolocalization_images//#Code".
-  5.2 Use the code at "http://crcv.ucf.edu/projects/videolocalization_images//#Code" find action patches.  Once patches are found, use "save_Image_proposal_BBX_IM" to save top 3 patches from each image. After that, compute CNN features again on these patches using "Compute_CNN_Images" and remove noisy patches using "RandomWalk_NoisyImages".  Note that Compute_CNN_Images" and "RandomWalk_NoisyImages" are used twice; once for images and second for patches.
+
+5.2 Use the code at "http://crcv.ucf.edu/projects/videolocalization_images//#Code" find action patches.  Once patches are found, use "save_Image_proposal_BBX_IM" to save top 3 patches from each image. After that, compute CNN features again on these patches using "Compute_CNN_Images" and remove noisy patches using "RandomWalk_NoisyImages".  Note that Compute_CNN_Images" and "RandomWalk_NoisyImages" are used twice; once for images and second for patches.
 
   5.3 Use "save_Video_proposal_BBX_IM_Neg.m" to save patches from low optical flow derivatives tubes in UCF-Sports dataset. These patches are used as negative examples to train actionness classifier. 
 
