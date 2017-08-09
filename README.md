@@ -31,7 +31,7 @@ Please follow the following steps to run code files
 8. Use "Compute_HOG_features.m" to compute HOG features within each patch of action proposal. 
 9. Use "Compute_ProposalPath_Recombination.m" to find final new proposals.
 
-"We are still updating the code".
+We are still updating the code.
 
  
 In case, you find some bug, could not understand any part of the code, or for other any comments, please drop me an email at waqas5163@gmail.com.
